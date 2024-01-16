@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .hello {
+            background-image: url("vacation.jpg");
+            height: 880px;
+            background-size: 100% 100%;
+            position: relative;
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+
+            /* padding: 20px 30px; */
+        }
+
+        .main {
+            padding: 20px 30px;
+            background-color: #F8ECEB;
+            height: 500px;
+
+            position: absolute;
+        }
+
+        .메뉴 {
+            display: grid;
+            grid-column-gap: 50px;
+        }
+
+        .sear {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 10px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .box {
+            background-color: red;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main hello">
+        <div class="box"></div>
+        <div class="nav">
+            <div class="logo">zuzu.</div>
+            <div class="메뉴">
+                <div>about</div>
+                <div>collections</div>
+                <div>videos</div>
+                <div>contact</div>
+            </div>
+            <div class="sear">
+                <div>아이콘</div>
+                <div>ENG</div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
